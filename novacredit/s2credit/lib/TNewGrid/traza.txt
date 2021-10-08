@@ -1,0 +1,1 @@
+SELECT  ID_Plantilla,              Nombre                FROM   plantillas            WHERE   0 = 0  	ORDER BY ID_Plantilla asc

@@ -1,0 +1,94 @@
+.platicaApp {
+	position: fixed;
+	position:expression("absolute");
+	width: 225px;
+	display:none;
+	float: right;
+}
+
+.platicaApphead {
+	background-color: #6EA6D1;
+	padding:3px;
+	color: #ffffff;
+
+	border:1px solid #5E96C1;
+	border-left:1px solid #5E96C1;
+}
+
+.platicaAppblink {
+	background-color: #176689;
+	border-right:1px solid #176689;
+	border-left:1px solid #176689;
+}
+
+.platicaAppcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:200px;
+	width:209px;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding:7px;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #ffffff;
+	line-height: 1.3em;
+	text-align: left !important;
+}
+
+.platicaAppinput {
+	padding: 5px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.platicaApptextarea {
+	width: 206px;
+	height:44px;
+	padding:3px 0pt 3px 3px;
+	border: 1px solid #eeeeee;
+	margin: 1px;
+	overflow:hidden;
+}
+
+.platicaApptextareaselected {
+	border: 2px solid #5E96C1;
+	margin:0;
+}
+
+.platicaAppmessage {
+	margin-left:1em;
+}
+
+.platicaAppinfo {
+	margin-left:-1em;
+	color:#666666;
+
+}
+
+.platicaAppmessagefrom {
+	margin-left:-1em;
+	font-weight: bold;
+}
+
+.platicaAppmessagecontent {
+}
+
+.platicaAppoptions {
+	float: right;
+}
+
+.platicaAppoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+.platicaApptitle {
+	float: left;
+}

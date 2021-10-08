@@ -1,0 +1,192 @@
+ul.fdtablePaginater
+        {
+        display:table;
+        list-style:none;
+        padding:0;
+        margin:0 auto;
+        text-align:center;
+        height:.5em;
+        width:auto;
+        margin-bottom:2em;
+       
+        }
+ul.fdtablePaginater li
+        {
+        display:table-cell;
+        padding-right:4px;
+        color:#666;
+        list-style:none;	
+
+        -moz-user-select:none;
+        -khtml-user-select:none;
+        }
+ul.fdtablePaginater li a.currentPage
+        {
+        border-color:#6a93bc !important;
+        color:black;
+        }
+ul.fdtablePaginater li a:active
+        {
+        border-color:#0b345e !important;
+        color:#222;
+        }
+ul.fdtablePaginater li a,
+ul.fdtablePaginater li div
+        {
+        display:block;
+        width:2em;
+        font-size:1em;
+        color:gray;
+        padding:0;
+        margin:0;
+        text-decoration:none;
+        outline:none;
+        border:1px solid #ccc;
+        font-family:georgia, serif;
+        }
+ul.fdtablePaginater li div
+        {
+        cursor:normal;
+        opacity:.5;
+        filter:alpha(opacity=50);
+        }
+ul.fdtablePaginater li a span,
+ul.fdtablePaginater li div span
+        {
+        display:block;
+        line-height:1.5em;
+        border:1px solid #fff;
+        background:#fff url(images/gradient.gif) repeat-x 0 -20px;
+        }
+ul.fdtablePaginater li a
+        {
+        cursor:pointer;
+        }
+ul.fdtablePaginater li a:focus
+        {
+        color:#333;
+        text-decoration:none;
+        border-color:#aaa;
+        }
+.fdtablePaginaterWrap
+        {
+        text-align:center;
+        clear:both;
+        text-decoration:none;
+        }
+ul.fdtablePaginater li .next-page span,
+ul.fdtablePaginater li .previous-page span,
+ul.fdtablePaginater li .first-page span,
+ul.fdtablePaginater li .last-page span
+        {
+        font-weight:bold !important;
+        }
+/* Keep the table columns an equal size during pagination */
+td.sized1
+        {
+        width:16em;
+        text-align:left;
+        }
+td.sized2
+        {
+        width:10em;
+        text-align:left;
+        }
+td.sized3
+        {
+        width:7em;
+        text-align:left;
+        }
+tfoot td
+        {
+        text-align:right;
+        font-weight:bold;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        color:white;
+        }
+thead td
+        {
+        font-weight:bold;
+        color:white;
+        }
+        
+a
+        {
+        font-weight:bold;
+        color:white;
+        text-decoration: underline
+        }       
+
+a:hover { color: #3c649f }
+#visibleTotal
+        {
+        text-align:right;
+        letter-spacing:auto;
+        }
+* html ul.fdtablePaginater li div span,
+* html ul.fdtablePaginater li div span
+        {
+        background:#eee;
+        }
+tr.invisibleRow
+        {
+        display:none;
+        visibility:hidden;
+        }
+p.paginationText
+        {
+        font-style:oblique;
+        }
+        
+        
+.rcMenuContainer {
+    font-family:verdana, arial;
+    position: absolute;
+    border: 1px solid black;
+    background:#edf4fb;
+    padding:2px;
+    width:250px; 
+}
+.rcMenuItem {
+    font-size:11px;
+    font-weight:normal;
+    padding:3px;
+    width:100%;
+}
+.rcMenuItemHover {
+    font-size:11px;
+    font-weight:normal;
+    background:#5e88ae;
+    color:white;
+    padding:3px;
+}
+.rcMenuItemText {
+    font-size:11px;
+    font-weight:normal;
+    border:0px;
+    padding:2px;
+}
+.rcMenuItemTextExt {
+    font-size:11px;
+    font-weight:normal;
+    border:1px dotted grey;
+    padding:2px;
+} 
+.rcMenuSeparator{
+    color:black;
+    height:3px;
+}
+.rcImage {
+	padding-right:4px; 
+}        
+
+
+
+hr{
+width:85%;
+height:0px;/*solo queremos borde*/
+text-align:left;
+border-top:0px;/*quita el grosor extra de Opera y FFox*/
+border-bottom:navy dashed 1px;
+}

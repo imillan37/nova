@@ -1,0 +1,23 @@
+SELECT     
+							grupo_solidario.ID_grupo_soli,
+							grupo_solidario.Nombre,
+							grupo_solidario.Status_grupo,
+							promotores.Nombre,
+							sucursales.Nombre,
+							SUM(grupo_solidario_integrantes.Monto_asignado),
+							grupo_solidario_integrantes.Fecha_vence,
+							grupo_solidario.Ciclo_gpo,
+							grupo_solidario.Fecha_captura
+					FROM grupo_solidario
+					LEFT JOIN grupo_solidario_integrantes ON grupo_solidario.ID_grupo_soli = grupo_solidario_integrantes.ID_grupo_soli
+					LEFT JOIN promotores                  ON grupo_solidario.ID_Promotor = promotores.Num_promo
+					LEFT JOIN sucursales                  ON grupo_solidario.ID_Suc = sucursales.ID_Sucursal WHERE  grupo_solidario.Nombre LIKE '%cactus%verdes%' AND  grupo_solidario.Status='Activo'
+					AND (grupo_solidario.Status_grupo='CONFORMIDAD COMPLETA')
+					AND  grupo_solidario.Cerrado='Y' 
+					AND  grupo_solidario.Alta_cliente='Y'
+					AND  grupo_solidario_integrantes.Status ='Activo' 
+					AND  grupo_solidario.Alta_credito='Y'       
+					AND  grupo_solidario_integrantes.Ciclo_renovado='N'
+		
+		
+		GROUP BY grupo_solidario.Fecha_captura ASC

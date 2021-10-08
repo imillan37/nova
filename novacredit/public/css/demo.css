@@ -1,0 +1,33 @@
+/**
+ * @author andres cruz <andres.cruz@s2credit.com>
+ * version: 1
+ */
+
+
+.title-custom {
+  color: #000000 !important;
+}
+
+.busqueda-data-grid-custom{
+	padding: 0px,0px,0px,0px !important;
+}
+
+.label-floating .input-group{
+	padding: 0px,0px,0px,0px !important;
+}
+
+.ms-drop .checkboxClass .ms-no-results .placeholder {
+  color: #000000 !important;
+}
+
+label { 
+  color: #000000 !important;
+}
+
+.wizard-title { 
+  font-size: xx-small !important;
+}
+
+.wizard-header { 
+  padding: 0px,0px,0px,0px !important;
+}

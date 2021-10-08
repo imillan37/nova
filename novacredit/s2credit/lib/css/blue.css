@@ -1,0 +1,100 @@
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #FFFFFF;
+	background-image: url(./fondo.gif);
+	margin: 0 auto;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:#666666;
+  font-weight: normal;
+	text-align: center;
+	margin: 0 auto;
+}
+h1 {
+	padding: 15px;
+}
+div#contenedor {
+	text-align: center;
+	margin:     0 auto; 
+}
+table.tblReporte {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	width: 90%;
+	font-size: 12px !important;
+	padding: 0;
+	text-align: left;	
+	border: 1px #C5DBEC solid;
+}
+table.tblReporte th {
+	background-color: #FFFFFF;
+	 border: 1px #EDF5FA solid; 
+	text-align: center;
+}
+table.tblReporte th.titulo {
+	background-color: #6EA6D1; /*#336699;*/
+	border: 1px #4297D7 solid; /*#225588*/
+	color: #FFFFFF  !important;
+}
+
+table.tblReporte th.titulo_derecha {
+	background-color: #6EA6D1; /*#336699;*/
+	border: 1px #4297D7 solid; /*#225588*/
+	color: #FFFFFF !important;
+	text-align: right !important;
+}
+table.tblReporte th.titulo_izquierda{
+	background-color: #6EA6D1; /*#336699;*/
+	border: 1px #4297D7 solid; /*#225588*/
+	color: #FFFFFF !important;
+	text-align: left !important;
+}
+table.tblReporte td {
+	border: 1px #EDF5FA solid; 
+	background-color: #FFFFFF; 
+}
+table.tblReporte td.derecha, table.tblReporte th.derecha {
+	text-align: right !important;
+}
+table.tblReporte td.izquierda, table.tblReporte th.izquierda {
+	text-align: left !important;
+}
+table.tblReporte td.centro {
+	text-align: center !important;
+}
+
+div.divMensaje {
+	text-align: center;
+	width: 750px;
+	font-weight: bold;
+	letter-spacing: 1px; 
+	line-height: 150%;
+	color: #339933; 
+	margin: 0 auto;
+	padding: 9px;
+	background-color: #FFF;
+	border: 1px #336699 solid;
+	margin-bottom: 9px;
+}
+	 
+.negra { 
+	font-weight: bold; 
+}
+a {
+	color: #003366;
+	text-decoration: none;
+}
+a:hover {
+	color: #336699;
+	text-decoration: none;
+}
+
+ul, li {
+	color: #333;
+	margin: 0 auto;
+	padding: 0;
+	list-style:none;
+}

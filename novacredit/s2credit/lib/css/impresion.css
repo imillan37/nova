@@ -1,0 +1,118 @@
+SPAN.toolbar {
+    POSITION:   absolute; 
+    TOP:        0;
+		LEFT:       0;
+		WIDTH:      100; 
+		HEIGTH:     150;
+		z-index: 0;
+		BACKGROUND-COLOR: yellow;
+    FONT-SIZE:   8pt;
+    LINE-HEIGHT: 9pt;
+    FONT-WEIGHT: bold;
+		COLOR: black;
+		FILTER: Alpha(style=0,opacity=85);
+}
+
+B
+{
+    FONT-FAMILY: Arial, sans-serif;
+    FONT-STYLE: bold;
+		COLOR: black;
+}
+
+I
+{
+    FONT-FAMILY: Arial, sans-serif;
+    FONT-STYLE: italic;
+		COLOR: black;
+}
+
+U
+{
+    FONT-FAMILY: Arial, sans-serif;
+    FONT-STYLE: underline;
+		COLOR: black;
+}
+
+TABLE.col
+{
+    FONT-FAMILY: Arial, sans-serif;
+		COLOR: black;
+		BACKGROUND: #E0E0E0;
+}
+
+TH
+{
+    LINE-HEIGHT: 9pt;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial, sans-serif;
+		COLOR: black;
+}
+
+TH.enc
+{
+    LINE-HEIGHT: 11pt;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, sans-serif;
+		COLOR: black;
+}
+
+TD
+{
+    LINE-HEIGHT: 8pt;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial, sans-serif;
+		COLOR: black;
+}
+
+TD.enc
+{
+    LINE-HEIGHT: 13pt;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial, sans-serif;
+		COLOR: black;
+}
+
+TD.col
+{
+    LINE-HEIGHT: 9pt;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial, sans-serif;
+    FONT-WEIGHT: bold;
+		COLOR: black;
+}
+
+TD.coln
+{
+    LINE-HEIGHT: 9pt;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial, sans-serif;
+    FONT-WEIGHT: bold;
+		COLOR: black;
+    TEXT-ALIGN: right;
+}
+
+TD.num
+{
+    FONT-FAMILY: Arial, sans-serif;
+    TEXT-ALIGN: right;
+		COLOR: black;
+}
+
+TR
+{
+    FONT-FAMILY: Arial, sans-serif;
+		COLOR: black;
+}
+
+TR.col
+{
+    FONT-FAMILY: Arial, sans-serif;
+		COLOR: black;
+		BACKGROUND: #E0E0E0;
+}
+
+
+.TablaBorde {
+	border: 1px solid #D2D2D2;
+}
